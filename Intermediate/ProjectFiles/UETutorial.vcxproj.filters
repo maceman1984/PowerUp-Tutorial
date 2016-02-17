@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UETutorial.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{8172BA80-0415-4100-A1DD-0B3F27B8BD35}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UETutorial.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UETutorialEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{6DF4C422-697F-4BCA-82C3-FA66E308647F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\UETutorial">
+			<UniqueIdentifier>{E46B8583-5391-4C2F-B8E3-E80FAE916530}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\UETutorial\BatteryPickup.cpp">
+			<Filter>Source\UETutorial</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UETutorial\BatteryPickup.h">
+			<Filter>Source\UETutorial</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UETutorial\GameHUD.cpp">
+			<Filter>Source\UETutorial</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UETutorial\GameHUD.h">
+			<Filter>Source\UETutorial</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UETutorial\Pickup.cpp">
+			<Filter>Source\UETutorial</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UETutorial\Pickup.h">
+			<Filter>Source\UETutorial</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UETutorial\SpawnVolume.cpp">
+			<Filter>Source\UETutorial</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UETutorial\SpawnVolume.h">
+			<Filter>Source\UETutorial</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\UETutorial\UETutorial.Build.cs">
+			<Filter>Source\UETutorial</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UETutorial\UETutorial.cpp">
+			<Filter>Source\UETutorial</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UETutorial\UETutorial.h">
+			<Filter>Source\UETutorial</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UETutorial\UETutorialCharacter.cpp">
+			<Filter>Source\UETutorial</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UETutorial\UETutorialCharacter.h">
+			<Filter>Source\UETutorial</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UETutorial\UETutorialGameMode.cpp">
+			<Filter>Source\UETutorial</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UETutorial\UETutorialGameMode.h">
+			<Filter>Source\UETutorial</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
